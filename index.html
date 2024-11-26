@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unlimited Wordle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Unlimited Wordle</h1>
+        <button id="theme-toggle">Dark Mode</button>
+    </header>
+    <main>
+        <div class="controls">
+            <label for="word-length">Word Length:</label>
+            <select id="word-length">
+                <option value="5" selected>5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+            <button id="new-word">New Word</button>
+        </div>
+        <div id="game-board"></div>
+        <p id="status"></p>
+        <div class="extras">
+            <button id="hint-btn">Get Hint</button>
+            <button id="suggest-btn">Suggest Word</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Unlimited Wordle</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
